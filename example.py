@@ -1,5 +1,5 @@
 #=================== ABOUT ===================#
-# table_printer_py/example.py
+# python-table-printer/example.py
 # A python table printer for a given dataset
 # Author: Martín Figueroa Padilla
 # Version = 1.0.0
@@ -45,3 +45,19 @@ table_dict = TablePrinter()
 table_dict.set_header(header=['Character', 'Storyline'])
 table_dict.set_dataset(dataset_dict, ignore_keys=['id'])
 table_dict.print(auto_id=True, cell_padding=4, show_header=True, row_border=True)
+
+'''
+OUTPUT EXAMPLE:
+
+    ID    |    CHARACTER           |    STORYLINE
+==========|========================|=========================================
+    1     |    Hermione Granger    |    Harry Potter
+----------|------------------------|-----------------------------------------
+    2     |    Simon Spier         |    Simon vs. the Homo Sapiens Agenda
+----------|------------------------|-----------------------------------------
+    3     |    Ally                |    A Star is Born
+----------|------------------------|-----------------------------------------
+    4     |    Katara              |    Avatar: The Legend of Aang
+----------|------------------------|-----------------------------------------
+    5     |    Luke Skywalker      |    Star Wars
+'''

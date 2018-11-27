@@ -1,5 +1,5 @@
 #=================== ABOUT ===================#
-# table_printer_py/printer.py
+# python-table-printer/printer.py
 # A python table printer for a given dataset
 # Author: Martín Figueroa Padilla
 # Version = 1.0.0

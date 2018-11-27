@@ -2,6 +2,11 @@
 A python table printer for a given dataset.<br>
 Actual version: 1.0.0
 
+## Files
+The files included in this project:
+* example.py: an example on how to use TablePrinter.
+* printer.py: the TablePrinter file.
+
 ## Functions
 #### add_row(row, times)
 Add a row to the table's dataset.<br>
